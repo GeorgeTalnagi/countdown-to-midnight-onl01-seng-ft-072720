@@ -1,7 +1,7 @@
-def countdown
+def countdown_with_sleep
   counter = 10
-  while countdown > 0
-    put "#{counter} SECOND(S)!"
+  while countdown_with_sleep > 0
+    put "#{countdown_with_sleep} SECOND(S)!"
     counter -= 1
     sleep 1
 "HAPPY NEW YEAR!"
